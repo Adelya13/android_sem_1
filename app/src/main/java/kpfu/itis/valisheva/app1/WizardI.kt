@@ -5,3 +5,4 @@ interface WizardI {
     fun brewPotion()
     fun conductRitual()
 }
+

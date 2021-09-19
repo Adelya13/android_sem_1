@@ -6,3 +6,4 @@ interface WarriorI {
     fun conductSparring(warrior: Warrior)
 
 }
+

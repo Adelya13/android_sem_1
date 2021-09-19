@@ -51,3 +51,4 @@ class Warrior(name: String, age: Int, gender: Boolean) : Human(name, age, gender
 
     }
 }
+

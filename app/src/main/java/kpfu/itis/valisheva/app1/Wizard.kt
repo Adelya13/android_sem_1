@@ -58,3 +58,4 @@ class Wizard(name: String, age: Int, gender: Boolean, val talent: String) : Huma
     }
 
 }
+
