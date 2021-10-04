@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">app1</string>
+    <string name="app_name">my instagram</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="ad_tools">Ad Tools</string>
+    <string name="insights">Insights</string>
+    <string name="user_name">Chember</string>
+    <string name="user_information">Blog about my life</string>
+    <string name="posts">26\nPosts</string>
+    <string name="followers">242\nFollowers</string>
+    <string name="following">188\nFollowing</string>
+    <string name="user">the_best_cat_in_the_world</string>
+    <string name="story1">my life</string>
+    <string name="story2">2020</string>
+    <string name="story3">hobby</string>
+
+
+
 </resources>
