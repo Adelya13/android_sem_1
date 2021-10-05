@@ -13,21 +13,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var btn = findViewById<ImageButton>(R.id.edit_username)
-        var userName : TextView = findViewById(R.id.cat_name)
-        var editName = findViewById<EditText>(R.id.cat_name_edit)
+        val btn: ImageButton = findViewById<ImageButton>(R.id.edit_username)
+        val userName : TextView = findViewById(R.id.cat_name)
+        val editName = findViewById<EditText>(R.id.cat_name_edit)
 
 
         btn.setOnClickListener {
             userName.visibility = View.INVISIBLE
             editName.visibility = View.VISIBLE
 
+            btn.setOnClickListener {
+                userName.text = editName.text
+                userName.visibility = View.VISIBLE
+                editName.visibility = View.INVISIBLE
+            }
+
         }
-        btn.setOnClickListener {
-            userName.text = editName.text
-            userName.visibility = View.VISIBLE
-            editName.visibility = View.INVISIBLE
-        }
+
 
     }
 }
