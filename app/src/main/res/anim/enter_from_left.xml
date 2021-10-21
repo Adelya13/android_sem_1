@@ -8,3 +8,5 @@
         android:duration="@android:integer/config_mediumAnimTime"
         />
 </set>
+
+
