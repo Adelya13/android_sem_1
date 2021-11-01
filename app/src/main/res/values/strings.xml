@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">app1</string>
+    <string name="username">Username</string>
+    <string name="user_status">status</string>
+    <string name="status_name">статус:</string>
+    <string name="name">имя</string>
 </resources>
+

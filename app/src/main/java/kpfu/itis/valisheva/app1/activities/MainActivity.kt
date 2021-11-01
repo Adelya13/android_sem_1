@@ -1,11 +1,14 @@
-package kpfu.itis.valisheva.app1
+package kpfu.itis.valisheva.app1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 
-import androidx.navigation.fragment.NavHostFragment
+import kpfu.itis.valisheva.app1.R
+import kpfu.itis.valisheva.app1.UserAdapter
 import kpfu.itis.valisheva.app1.databinding.ActivityMainBinding
+import kpfu.itis.valisheva.app1.findController
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater).also{
             setContentView(it.root)
         }
-        controller = findController(R.id.container)
 
+        controller = findController(R.id.container)
     }
 }
+

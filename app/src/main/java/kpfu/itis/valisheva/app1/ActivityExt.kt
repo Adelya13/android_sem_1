@@ -7,3 +7,5 @@ fun AppCompatActivity.findController(
     id : Int
 ) = (supportFragmentManager.findFragmentById(id) as NavHostFragment)
          .navController
+
+
