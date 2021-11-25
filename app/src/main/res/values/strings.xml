@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">app1</string>
+    <string name="hours">hours:</string>
+    <string name="minutes">minutes:</string>
+    <string name="notification_channel_title">Time Channel</string>
+    <string name="notification_channel_desc">this channel helps to keep track of time</string>
+    <string name="have_a_good_day">Хорошего дня!!!</string>
+    <string name="channel_id_1">channel_id_1</string>
+    <string name="set_time">Задайте время</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
 </resources>
