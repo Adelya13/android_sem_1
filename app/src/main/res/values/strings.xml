@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">app1</string>
+    <string name="app_name">Planer</string>
+    <string name="task_tittle">Task tittle</string>
+    <string name="task_description">task description</string>
+    <string name="remove_all">remove all</string>
+    <string name="delete_task">Delete task</string>
+    <string name="tittle">Tittle</string>
+    <string name="description">Description</string>
+    <string name="set_date">Set date:</string>
+    <string name="done">Done</string>
+    <string name="KEY_TITTLE">TITTLE</string>
+    <string name="KEY_DESCRIPTION">DESCRIPTION</string>
+    <string name="KEY_DATE">DATE</string>
+    <string name="KEY_TASK_ID">TASK_ID</string>
 </resources>

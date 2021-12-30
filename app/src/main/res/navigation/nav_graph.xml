@@ -2,10 +2,26 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainFragment">
-
+    app:startDestination="@id/taskListFragment">
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="kpfu.itis.valisheva.app1.MainFragment"
-        android:label="MainFragment" />
+        android:id="@+id/taskListFragment"
+        android:name="kpfu.itis.valisheva.app1.fragments.TaskListFragment"
+        android:label="TaskListFragment" >
+        <action
+            android:id="@+id/action_taskListFragment_to_editFragment"
+            app:destination="@id/editFragment"/>
+        <argument
+            android:name="TASK_ID"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="kpfu.itis.valisheva.app1.fragments.EditFragment"
+        android:label="EditFragment" >
+        <action
+            android:id="@+id/action_editFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+    </fragment>
 </navigation>
