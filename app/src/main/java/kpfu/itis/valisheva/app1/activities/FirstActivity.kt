@@ -1,23 +1,23 @@
-package kpfu.itis.valisheva.app1
+package kpfu.itis.valisheva.app1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
+import kpfu.itis.valisheva.app1.R
 
-import androidx.navigation.fragment.NavHostFragment
-import kpfu.itis.valisheva.app1.databinding.ActivityMainBinding
+import kpfu.itis.valisheva.app1.databinding.ActivityFirstBinding
+import kpfu.itis.valisheva.app1.findController
 
-class MainActivity : AppCompatActivity() {
+class FirstActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityFirstBinding
     private lateinit var controller: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater).also{
+        binding = ActivityFirstBinding.inflate(layoutInflater).also{
             setContentView(it.root)
         }
         controller = findController(R.id.container)
-
     }
 }
